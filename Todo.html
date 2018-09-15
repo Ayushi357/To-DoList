@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple To-do List</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.1.js" ></script>
+	<link rel="stylesheet" type="text/css" href="todo.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+</head>
+<body>
+	  <div id="container">
+	  	<h1>Shopping List <span class ="toggle-form"><i class="fas fa-plus"></i></span></h1>
+	  	<input type="text" name="todo" placeholder="Add New">
+		<ul contentEditable='true'>
+			<li><span><i class="fa fa-trash"></i></span> Milk </li>
+			<li><span><i class="fa fa-trash"></i></span> Cereal </li>
+			<li><span><i class="fa fa-trash"></i></span> Soap </li>
+
+		</ul>
+          <div class="toggle-form">
+          	<h1> Completed <span><i class="fas fa-chevron-circle-down"></i></span></h1>
+          	<ol class="done">
+          		
+          	</ol>
+          </div>
+
+	  </div>		
+<script type="text/javascript" src="todo.js" ></script>
+</body>
+</html>
